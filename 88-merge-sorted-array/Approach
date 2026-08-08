@@ -1,1 +1,8 @@
+## Approach
 
+- Start from the end of both arrays.
+- Use three pointers to keep track of the elements in `nums1`, `nums2`, and the position where the next element should go.
+- Compare the elements from both arrays.
+- Put the larger element at the end of `nums1`.
+- Continue until all elements from `nums2` are added.
+- Merging from the back avoids overwriting the elements already present in `nums1`.
