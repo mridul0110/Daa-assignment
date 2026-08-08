@@ -1,1 +1,9 @@
+## Approach
 
+- Treat the 2D matrix like a single sorted array.
+- Initialize `start` at `0` and `end` at the last position.
+- Find the middle position and convert it into row and column using division and modulo.
+- If the middle element is equal to the target, return `true`.
+- If it is smaller than the target, move `start` to the right.
+- Otherwise, move `end` to the left.
+- Return `false` if the target is not found.
