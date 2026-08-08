@@ -1,1 +1,9 @@
+## Approach
 
+- Create a Min Heap using `PriorityQueue`.
+- Traverse through all the elements of the array.
+- Add each element to the heap.
+- If the heap size becomes greater than `k`, remove the smallest element.
+- This keeps only the `k` largest elements in the heap.
+- The top element of the heap is the `k`th largest element.
+- Return the top element.
