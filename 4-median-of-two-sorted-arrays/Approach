@@ -1,1 +1,9 @@
+## Approach
 
+- Create a new array to store the elements from both sorted arrays.
+- Use two pointers to compare the elements of both arrays.
+- Add the smaller element to the result array and move its pointer.
+- Add the remaining elements after one array is completely traversed.
+- Find the middle element of the merged array.
+- If the length is even, take the average of the two middle elements.
+- Otherwise, return the middle element as the median.
