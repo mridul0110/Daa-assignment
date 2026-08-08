@@ -1,1 +1,9 @@
+## Approach
 
+- Initialize `left` and `right` pointers.
+- Calculate the middle element.
+- If `nums[mid]` is equal to the target, return `mid`.
+- If `nums[mid]` is smaller than the target, move `left` to `mid + 1`.
+- Otherwise, move `right` to `mid - 1`.
+- If the target is not found, `left` gives the correct insert position.
+- Return `left`.
