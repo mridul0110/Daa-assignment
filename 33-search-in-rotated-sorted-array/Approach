@@ -1,1 +1,11 @@
+## Approach
 
+- Initialize `left` and `right` pointers.
+- Calculate the middle element of the current range.
+- If `nums[mid]` is equal to the target, return `mid`.
+- Check which half of the array is sorted.
+- If the left half is sorted, check if the target lies in that range.
+- Otherwise, search in the right half.
+- If the right half is sorted, check if the target lies in that range.
+- Keep moving `left` or `right` until the target is found.
+- Return `-1` if the target is not present.
