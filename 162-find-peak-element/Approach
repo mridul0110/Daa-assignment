@@ -1,1 +1,9 @@
+## Approach
 
+- Initialize `low` and `high` pointers.
+- Calculate the middle element.
+- Compare `nums[mid]` with `nums[mid + 1]`.
+- If `nums[mid] < nums[mid + 1]`, move `low` to the right.
+- Otherwise, move `high` to `mid`.
+- Continue until `low` and `high` become equal.
+- Return `low` as the peak index.
