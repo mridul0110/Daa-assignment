@@ -1,1 +1,9 @@
+## Approach
 
+- Use Merge Sort to sort the array.
+- Divide the array into two halves recursively.
+- Keep dividing until each part has only one element.
+- Merge the two sorted halves by comparing their elements.
+- Store the merged elements in a temporary array.
+- Copy the sorted elements back into the original array.
+- Return the sorted array.
