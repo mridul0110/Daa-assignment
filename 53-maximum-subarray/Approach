@@ -1,1 +1,8 @@
+## Approach
 
+- Initialize `currentSum` and `maxSum`.
+- Traverse the array from left to right.
+- At each element, decide whether to start a new subarray or continue the current one.
+- Update `currentSum` using the maximum of the current element and the current sum plus the element.
+- Keep updating `maxSum` with the maximum value found.
+- Return `maxSum` at the end.
